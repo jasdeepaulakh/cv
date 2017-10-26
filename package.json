@@ -10,11 +10,9 @@
     "reactstrap": "^5.0.0-alpha.3"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "postinstall": "webpack -p",
-    "start": "node server.js"
+    "eject": "react-scripts eject"
   }
 }
