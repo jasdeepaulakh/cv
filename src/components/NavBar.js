@@ -30,7 +30,7 @@ export default class NavBar extends React.Component {
                 <Navbar className="navbar navbar-toggleable-md fixed-top navbar-inverse bg-primary">
 
                     <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar>
+                    <Collapse className="justify-content-center" isOpen={this.state.isOpen} navbar>
                         <Nav className="navbar-nav">
                             <NavItem>
                                 <NavLink onClick={this.close.bind(this)} className="nav-link" exact to="/">Home</NavLink>
