@@ -1,14 +1,24 @@
 import React from 'react';
 import { Button } from 'reactstrap';
+import { SocialIcon } from 'react-social-icons';
 
 export default class Home extends React.Component {
     render() {
+
+        var urls = [
+            'http://www.jasdeepaulakh.co.uk',
+            'http://linkedin.com/in/jasdeepaulakh',
+          ];
+         
         return (
-            <div class="jumbotron">
-                <h1 class="display-3">Welcome</h1>
-                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <p><a class="btn btn-primary btn-lg" href="#">Learn more</a></p>
-            </div>
+            <div>
+            <div class="row h-100 justify-content-center align-items-center">
+              <h1>Jasdeep Aulakh</h1>
+            </div>  
+            <div class="row justify-content-center align-items-center">
+            <SocialIcon color="black" url='http://linkedin.com/in/jasdeepaulakh'/>
+          </div>  
+        </div>
         )
     }
 }
